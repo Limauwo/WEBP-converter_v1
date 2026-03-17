@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WEBP Converter</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>WEBP Converter</h1>
+      <p>Convert WEBP images to PNG or JPG</p>
+
+      <form action="/convert" method="post" enctype="multipart/form-data">
+        <div class="upload-box">
+          <input type="file" name="images" multiple accept=".webp" />
+        </div>
+
+        <div class="format-select">
+          <label>Output Format</label>
+
+          <select name="format">
+            <option value="png">PNG</option>
+            <option value="jpg">JPG</option>
+          </select>
+        </div>
+
+        <button type="submit" class="convert-btn">Convert</button>
+      </form>
+    </div>
+  </body>
+</html>

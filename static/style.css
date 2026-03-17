@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.convert-btn {
+  background: #2f80ed;
+  border: none;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
